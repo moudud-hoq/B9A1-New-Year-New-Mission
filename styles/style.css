@@ -101,7 +101,7 @@ margin:48px 0 10px;
 /*******************Welcome Section********** */
 
 .welcome-section {
-    background-image: url("images/vectorrr.png");
+    background-image: url("../images/vectorrr.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
