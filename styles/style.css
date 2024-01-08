@@ -14,7 +14,7 @@
 /*******************New Year Banner Section********** */
 
 .banner-section {
-    background-image: url('/images/banner-image.png');
+    background-image: url("images/banner-image.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
