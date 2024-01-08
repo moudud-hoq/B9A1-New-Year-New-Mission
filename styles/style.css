@@ -14,7 +14,7 @@
 /*******************New Year Banner Section********** */
 
 .banner-section {
-    background-image: url('/resources/Banner\ Image.png');
+    background-image: url('/resources/banner-image.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -52,7 +52,7 @@
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: 95px; /* 131.944% */
+    line-height: 95px;
 }
 
 /*******************Discount Section********** */
@@ -101,7 +101,7 @@ margin:48px 0 10px;
 /*******************Welcome Section********** */
 
 .welcome-section {
-    background-image: url('../resources/Vectorrr.png');
+    background-image: url('/resources/vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -110,11 +110,11 @@ margin:48px 0 10px;
     height: 600px;
     max-height: 600px;
     border-radius: 15px;
-
     display: flex;
 }
 
 .text-and-yearlogo {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     padding: 76px 0;
     display: flex;
     justify-content: center;
@@ -124,7 +124,16 @@ margin:48px 0 10px;
 .welcome-text {
     color: #FFF;
     padding: 0 48px 0 126px;
+}
 
+.welcome-text-title {
+    font-size: 64px;
+    margin: 0;
+}
+
+#welcome-text-p {
+    margin: 24px 0 48px 0;
+    max-width: 680px;
 }
 
 .year-logo {
@@ -171,11 +180,10 @@ margin:48px 0 10px;
 .subscribe-text {
     margin: 0 212px;
     padding: 48px 40px;
-
 }
 
 #subscribe-newsletter {
-    margin: 0 auto;
+   margin: 0 auto;
    text-align: center;
    font-family: Merriweather;
    font-size: 45px;
@@ -183,9 +191,9 @@ margin:48px 0 10px;
 }
 
 #subscribe-p {
-    margin: 22px 0 48px 0;
+    margin: 22px 0 0 0;
+    text-align: center;
 }
-
 
 .subscribe-button-area {
     display: flex;
@@ -193,20 +201,15 @@ margin:48px 0 10px;
     align-items: center;
 }
 
-label {
-    position: relative;
-}
-
 input {
     border: none;
     padding: 15px;
     border-radius: 20px 0 0 20px;
-    width: 200px;
-    max-width: 200px;
+    width: 400px;
+    max-width: 400px;
 }
 
 .button-style {
-    position: absolute;
     margin: 0 0 0;
     border: none;
     padding: 15px;
@@ -217,6 +220,7 @@ input {
 
 /*                     Footer Area                    */
 footer {
+    max-width: 1600px;
     background-color: rgb(7, 2, 17);
     height: 600px;
 }
