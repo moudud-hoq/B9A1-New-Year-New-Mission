@@ -14,7 +14,7 @@
 /*******************New Year Banner Section********** */
 
 .banner-section {
-    background-image: url('/resources/banner-image.png');
+    background-image: url('/images/banner-image.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -101,7 +101,7 @@ margin:48px 0 10px;
 /*******************Welcome Section********** */
 
 .welcome-section {
-    background-image: url('/resources/vectorrr.png');
+    background-image: url('/images/vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
