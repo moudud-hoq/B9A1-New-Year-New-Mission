@@ -101,6 +101,7 @@
     height: 600px;
     max-height: 600px;
     display: flex;
+    border-radius: 15px 15px;
 }
 
 .text-and-yearlogo {
@@ -109,6 +110,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
 }
 
 .welcome-text {
@@ -128,6 +130,7 @@
 
 .year-logo {
     padding: 68px 138px 67px 0;
+
 }
 
 /*               Our Awesome Portfolio               */
@@ -146,6 +149,11 @@
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+}
+
+#portfolio-description {
+    width: 700px;
+    padding: 22px 0 40px;
 }
 
 .portfolio-images {
