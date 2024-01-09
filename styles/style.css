@@ -317,6 +317,10 @@ hr {
     padding: 5px;
 }
 
+.address {
+    line-height: 20px;
+}
+
 .social-icon-area {
     height: 160px;
     display: flex;
