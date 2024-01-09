@@ -168,10 +168,16 @@
     padding: 0;
 }
 
-.image-details {
+.image-details:hover {
     padding: 0;
     margin: 0 10px 0 0;
+    background-color: rgb(0, 0, 0);
+    transition: width .-2s ease-in;
+    transition: height .-2s;
+
 }
+
+
 
 /*              Subscribe Newsletter               */
 .subscribe {
