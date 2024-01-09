@@ -171,8 +171,55 @@
     margin: 0 0 0 110px;
 }
 
+
+/* holiday sale
+.holiday-sale {
+    margin: 120px 140px;
+}
+
+.holiday-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+
+.discount-image {
+    /* background-image: url(../images/rectangle-2.png);
+    background-repeat: no-repeat;
+    background-position: center bottom; */
+/* 
+.box {
+    position: relative;
+}
+
+.red {
+    z-index: -10;
+}
+
+.gsf {
+    bottom: -180px;
+}
+
+.g-four {
+    bottom: -579px;
+    right: -740px;
+}
+
+.r-one {
+    bottom: -919px;
+    right: -890px;
+    z-index: -1;
+} */
+ */
+
+
 /*               Our Awesome Portfolio               */
 .portfolio {
+    max-width: 1320px;
+    height: 800px;
+    max-height: 800px;
     margin: 120px 140px;
 }
 
