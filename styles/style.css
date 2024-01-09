@@ -133,6 +133,37 @@
 
 }
 
+/* NEW BEST OFFER*/
+.new-best-offer-bg-img {
+    margin: 120px 140px;
+    background-color: rgb(255, 248, 248);
+    border-radius: 3px;
+    background-image: url("../images/group-96.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.new-best-offer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.coming-soon-text {
+    max-width: 300px;
+    margin: 0 60px 0 0;
+}
+
+.coming-soon-img {
+    border-radius: 50%;
+    padding: 10px;
+    border: 15px solid red;
+}
+
+.right-and-text {
+    margin: 0 0 0 110px;
+}
 /*               Our Awesome Portfolio               */
 .portfolio {
     margin: 120px 140px;
@@ -176,8 +207,10 @@
     /* transform: translate3d(x, y, z) rotateX(angle) rotateY(angle) rotateZ(angle) scale3d(x, y, z);  */
 
     transform: translate3d(5px, 6px, 10px) rotateX(20deg) scale3d(1.5, 1.5, 1.5);
+
     /* transition: 1s ease-in;
     transition: 1s ease-in-out; */
+
     transition: transform 1s ease-in-out;
     transition: property duration ease-in-out;
 
