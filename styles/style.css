@@ -4,7 +4,6 @@
   /*Inter*/
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,6 @@
 }
 
 /*******************New Year Banner Section********** */
-
 .banner-section {
     background-image: url("../images/banner-image.png");
     background-repeat: no-repeat;
@@ -99,7 +97,6 @@ margin:48px 0 10px;
 }
 
 /*******************Welcome Section********** */
-
 .welcome-section {
     background-image: url("../images/vectorrr.png");
     background-repeat: no-repeat;
@@ -109,7 +106,6 @@ margin:48px 0 10px;
     max-width: 1320px;
     height: 600px;
     max-height: 600px;
-    border-radius: 15px;
     display: flex;
 }
 
@@ -142,30 +138,41 @@ margin:48px 0 10px;
 
 /*               Our Awesome Portfolio               */
 .portfolio {
-    margin: 120px 130px;
+    margin: 120px 140px;
 }
 
+#the-best-gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#portfolio-title {
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
 
 .portfolio-images {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items:center ;
     flex-wrap: wrap;
     max-width: 1320px;
-    height: 600px;
-    max-height: 600px;
+    height: 800px;
+    max-height: 800px;
 }
 
 .image-details{
-
+    padding: 10px 10px 0 0;
 }
 
 /*              Subscribe Newsletter               */
-
-
 .subscribe {
     max-width: 1320px;
     height: 600px;
+    max-height: 600px;
     margin: 120px 140px;
 
     border-radius: 16px;
